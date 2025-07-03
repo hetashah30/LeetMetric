@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+  color: #fff;
+}
+
+body {
+  /* background-color: #a97844; */
+  background-image: url('https://images.pexels.com/photos/1089438/pexels-photo-1089438.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #333;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: #dbb790;
+  padding: 2rem;
+  margin: 0 auto;
+  border-radius: 5px;
+  width: 90%;
+  max-width: 800px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  font-size: 2.3rem;
+}
+
+#title {
+  font-family: 'Courier New', Courier, monospace;
+  letter-spacing: 2px;
+  animation: flicker 1.5s infinite alternate;
+}
+
+@keyframes flicker {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0.92;
+  }
+}
+
+
+.user-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.user-container label {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.user-label {
+  color: #333;
+  font-size: 1.2rem;
+}
+
+#user-input {
+  width: 75%;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+#search-btn {
+  width: 22%;
+  padding: 0.5rem;
+  background-color: #242424;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#search-btn:hover {
+  background-color: #333;
+}
+
+/* .stats-container {
+  display: none;
+} */
+
+.circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid #299f33;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0 auto;
+  /* made variable progress degree for progress bar and replacing percentage 0 with percentage of user's progress */
+  background: conic-gradient(#299f33 var(--progress-degree, 0%), #283a2e 0%);
+}
+
+.circle span {
+  position: relative;
+  z-index: 2;
+}
+
+.progress {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.stats-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.card {
+  background-color: #fefefe;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  font-size: 1.2rem;
+  font-weight: 700;
+  width: 200px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 150px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  body {
+    height: auto;
+  }
+
+  .container {
+    width: 90%;
+    margin: 1rem auto;
+    padding: 1rem;
+  }
+
+  .user-container {
+    flex-direction: column;
+  }
+
+  #user-input {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+
+  #search-btn {
+    width: 100%;
+  }
+
+  .progress {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .circle {
+    width: 120px;
+    height: 120px;
+    font-size: 0.9rem;
+  }
+}

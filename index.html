@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LeetMetric</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="code.ico">
+  <meta name="description" content="LeetMetric - Track your LeetCode progress">
+  <meta name="keywords" content="LeetCode, LeetMetric, LeetCode Progress, LeetCode Stats, LeetCode Progress Tracker">
+  <meta name="author" content="Heta Shah">
+</head>
+
+<body>
+
+  <div class="container">
+    <h1 id="title">LeetMetric</h1>
+
+    <div class="user-container">
+      <label for="user-input" class="user-label">Enter your Leetcode username:</label>
+      <div class="user-input-container">
+        <input type="text" id="user-input" placeholder="Enter username here">
+        <button id="search-btn">Search</button>
+      </div>
+    </div>
+
+    <div class="stats-container">
+
+      <!-- Progress -->
+      <div class="progress">
+        <!-- Easy -->
+        <div class="progress-item">
+          <div id="easy-progress" class="easy-progress circle"><span id="easy-label"></span>Easy</div>
+        </div>
+        <!-- Medium -->
+        <div class="progress-item">
+          <div id="medium-progress" class="medium-progress circle"><span id="medium-label"></span>Medium</div>
+        </div>
+        <!-- Hard -->
+        <div class="progress-item">
+          <div id="hard-progress" class="hard-progress circle"><span id="hard-label"></span>Hard</div>
+        </div>
+      </div>
+
+      <!-- Stats -->
+      <div id="stats-cards" class="stats-cards">
+        <!-- directly populate cards here from JS code -->
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
