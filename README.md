@@ -54,9 +54,8 @@ Whether you're tracking your daily grind or showing off your rankings, LeetMetri
 ├── index.html
 ├── style.css
 ├── script.js
-├── /screenshots
-│ ├── home.png
-│ └── results.png
+├── home.png
+├── results.png
 └── README.md
 ```
 
