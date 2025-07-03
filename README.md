@@ -22,9 +22,9 @@ Whether you're tracking your daily grind or showing off your rankings, LeetMetri
 
 ---
 
-## 🎥 Demo Video
+## 🎥 Project Demo
 
-[![Watch the full demo on YouTube ▶️](https://github.com/hetashah30/LeetMetric/blob/main/thumbnail.png)](https://youtu.be/3m3oJtNNKHE?si=hFV7fLYOB_k_1BtS)  
+[![Watch the video](https://img.youtube.com/vi/3m3oJtNNKHE/maxresdefault.jpg)](https://www.youtube.com/watch?v=3m3oJtNNKHE)
 
 ---
 
