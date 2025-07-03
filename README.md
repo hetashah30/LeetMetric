@@ -7,8 +7,7 @@ Whether you're tracking your daily grind or showing off your rankings, LeetMetri
 
 ## 🌐 Live Website
 
-🔗 [Visit LeetMetric](https://yourusername.github.io/LeetMetric/)  
-(Replace with your actual GitHub Pages link)
+🔗 [Visit LeetMetric](https://hetashah30.github.io/LeetMetric/)  
 
 ---
 
@@ -25,7 +24,7 @@ Whether you're tracking your daily grind or showing off your rankings, LeetMetri
 
 ## 🎥 Demo Video
 
-▶️ [Watch the full demo on YouTube](https://youtu.be/your-video-link-here)  
+▶️ [Watch the full demo on YouTube](https://youtu.be/3m3oJtNNKHE?si=hFV7fLYOB_k_1BtS)  
 (Replace with your actual video URL)
 
 ---
