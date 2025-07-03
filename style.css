@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Courier New', Courier, monospace;
-  color: #fff;
   overflow-x: hidden;
 }
 
@@ -151,6 +150,7 @@ h1 {
   padding: 1rem;
   border-radius: 8px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  color: #fff;
   font-size: 1.2rem;
   font-weight: 700;
   width: 200px;
