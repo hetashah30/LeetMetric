@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: 'Courier New', Courier, monospace;
   color: #fff;
+  overflow-x: hidden;
 }
 
 body {
@@ -12,23 +13,25 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   color: #333;
-  height: 100vh;
+  height: 100dvh;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 1.2rem;
 }
 
 .container {
   background-color: #dbb790;
   padding: 2rem;
-  margin: 0 auto;
+  margin: auto;
   border-radius: 5px;
   width: 90%;
   max-width: 800px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 1.5rem;
+  align-items: center;
 }
 
 h1 {
@@ -161,13 +164,20 @@ h1 {
 @media (max-width: 600px) {
 
   h1 {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
 
   .container {
-    width: 90%;
-    margin: 1rem auto;
+    width: 80%;
     padding: 1rem;
+    margin: 20px auto;
+  }
+
+  body {
+    font-size: 0.6rem;
+    line-height: 1.5;
+    margin: 0;
+    height: auto;
   }
 
   .user-container {
