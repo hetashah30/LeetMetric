@@ -24,7 +24,7 @@ Whether you're tracking your daily grind or showing off your rankings, LeetMetri
 
 ## 🎥 Demo Video
 
-▶️ [Watch the full demo on YouTube](https://youtu.be/3m3oJtNNKHE?si=hFV7fLYOB_k_1BtS)  
+[![Watch the full demo on YouTube ▶️](https://github.com/hetashah30/LeetMetric/blob/main/thumbnail.png)](https://youtu.be/3m3oJtNNKHE?si=hFV7fLYOB_k_1BtS)  
 
 ---
 
@@ -32,9 +32,7 @@ Whether you're tracking your daily grind or showing off your rankings, LeetMetri
 
 | Home Page | After Search |
 |-----------|--------------|
-| ![Home Screenshot](/home.png) | ![Results Screenshot](./results.png) |
-
-> You can store these screenshots in a `/screenshots` folder in your repo.
+| ![Home Screenshot](./home.png) | ![Results Screenshot](./results.png) |
 
 ---
 
